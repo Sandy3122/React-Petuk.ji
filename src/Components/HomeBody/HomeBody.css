@@ -1,0 +1,109 @@
+/********** Custome CSS **********/
+:root {
+    --primary: #3A9947;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+}
+
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/*** Hero Header ***/
+.hero-header {
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../../images/bg-hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Pacifico', cursive;
+}
+.hero-header h1{
+    font-size:60px;
+}
+.hero-header span{
+    color: #FA9D1C !important;
+}
+.hero-header img {
+    animation: imgRotate 50s linear infinite;
+}
+.hero-header .btn.btn-primary{
+    color: var(--light) !important;
+    background-color: #FA9D1C !important;
+    border-color:#FA9D1C;
+}
+
+@keyframes imgRotate { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: rgba(255, 255, 255, .5);
+}
+
+
+/*** Section Title ***/
+.section-title {
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+}
+
+.section-title.text-start::before,
+.section-title.text-end::after {
+    display: none;
+}
+
+
+
+/*** About Us Section ***/
+.tag{
+    font-size:40px;
+    color:#FA9D1C !important;
+}
+.spantag, .aboutText, .text-primary{
+    color:#FA9D1C !important;
+}
+.h3tag{
+    color:var(--primary) !important;
+}
+.ptag{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+    padding-left: 10px;
+}

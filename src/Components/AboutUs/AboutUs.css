@@ -1,0 +1,210 @@
+/*** About Us Section ***/
+.tag{
+    font-size:40px;
+    color:#FA9D1C !important;
+}
+.spantag, .aboutText, .text-primary{
+    color:#FA9D1C !important;
+}
+.h3tag{
+    color:var(--primary) !important;
+}
+.ptag{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+    padding-left: 10px;
+}
+.py-5
+{
+    padding-top: 5rem !important;
+}
+
+.homenav .bg-dark
+{
+    background: var(--dark) !important;
+}
+
+
+
+
+
+/*** About Us Section ***/
+.tag{
+    font-size:40px;
+    color:#FA9D1C !important;
+}
+.spantag, .aboutText, .text-primary{
+    color:#FA9D1C !important;
+}
+.h3tag{
+    color:var(--primary) !important;
+}
+.ptag{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+    padding-left: 10px;
+}
+
+
+/*** Food Menu ***/
+.nav-pills .nav-item .active {
+    border-bottom: 2px solid var(--primary);
+}
+
+
+/*** Team ***/
+
+.heading{
+    color: #FA9D1C;
+}
+
+.teams.btn-primary{
+    color: #FFFFFF !important;
+    background-color: #3A9947 !important;
+    border-color: #3A9947 !important;
+}
+
+.team-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    height: calc(100% - 38px);
+    transition: .5s;
+}
+
+.team-item img {
+    width:150px;
+    height:150px;
+    border-radius:50% !important;
+    transition: .5s;
+}
+
+.team-item:hover img {
+    transform: scale(1);
+}
+
+.team-item:hover {
+    height: 100%;
+}
+
+.team-item .btn {
+    border-radius: 38px 38px 0 0;
+    border-radius: 50%;
+}
+.rounded-circle
+{
+    border-radius: 50% !important;
+}
+
+.testimonial {
+	padding: 80px 0;
+    background: var(--dark) !important;
+}
+.sec-heading {
+	margin-bottom: 60px;
+}
+.sec-heading h6 {
+	font-weight: 500;
+	font-size: 25px;
+    color: var(--light) !important;
+}
+.single-box {
+	border: 3px solid #e6f0fa;
+	padding: 25px 15px 20px;
+	border-radius: 20px;
+	background: #fff;
+}
+.img-area {
+	margin: 45px 0 20px;
+}
+.single-box img {
+	max-width: 80px;
+	border-radius: 50%;
+	margin: 0 auto
+}
+.single-box h4 {
+	font-weight: 600;
+	margin: 0;
+	font-family: 'Allura', cursive;
+	font-size: 35px;
+}
+.single-box {
+	overflow: hidden
+}
+.single-box .img-area {
+	width: 20%;
+	float: left;
+	margin: 0
+}
+.single-box .content {
+	width: 70%;
+	float: left;
+	padding-left: 10px
+}
+.single-box p {
+	margin: 10px 0 10px;
+    height: auto;
+	line-height: 2.3;
+}
+.checked, .highlight {
+    color: orange;
+}
+.testi-carousel-three .single-box {
+	border: 0;
+	padding: 0 50px;
+}
+.testi-carousel .owl-dots, .clients-carousel .owl-dots, .testi-carousel-three .owl-dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -60px;
+	text-align: center;
+	width: 100%;
+}
+.testi-carousel .owl-dot, .clients-carousel .owl-dot, .testi-carousel-three .owl-dot {
+	width: 16px;
+	height: 16px;
+	background-color: #ddd;
+	display: inline-block;
+	margin: 0 6px;
+	text-align: center;
+	border-radius: 50%;
+}
+.testi-carousel .owl-dot.active, .clients-carousel .owl-dot.active, .testi-carousel-three .owl-dot.active {
+	background-color: var(--primary);
+}
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	.testimonial {
+		padding: 70px 0 130px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+	.testimonial {
+		padding: 70px 0 130px;
+	}
+	.single-box {
+		padding: 50px 0 40px;
+	}
+	.single-box .img-area {
+		width: 100%;
+		float: none;
+	}
+	.single-box .content {
+		width: 100%;
+		float: none;
+	}
+}
+
+/* Get In Touch Section */
+
+.head{
+    background-color: #0F172B;
+    background-size: 100% 100%;
+    width: 100%;
+}
+input[type=checkbox] {
+    box-sizing: border-box;
+    padding: 0;
+    height: 25px;
+    width: 25px;
+}
